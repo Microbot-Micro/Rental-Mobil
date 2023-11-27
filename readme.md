@@ -23,7 +23,7 @@ Aplikasi Rental Mobil berbasis web dibangun dengan laravel 5.8 dan Mysql
 1. Copy folder RentalMobil yang sudah didownload digithub, lalu paste ke folder htdocs.
 2. Aktifkan Apache dan MySQL pada Xampp.
 3. buka folder RentalMobil Menggunakan VS Code dan buka terminal
-4. ketikan "npm Install"
+4. ketikan "npm Install" & "composer install" & "composer dump-autoload"
 5. buka database Mysql buat database baru rentalmobil
 6. ketikan "php artisan migrate", untuk membuat table database
 7. ketikan "php artisan db:seed", untuk seeding isi database
@@ -31,3 +31,4 @@ Aplikasi Rental Mobil berbasis web dibangun dengan laravel 5.8 dan Mysql
 9. dan terakhir akan berjalan di "http://127.0.0.1:8000"
 10. Login dengan "email : admin, Password : rahasia"
 11. untuk register ada didalam aplikasinya
+12. ganti file ".env.exampe" menjadi ".env"
